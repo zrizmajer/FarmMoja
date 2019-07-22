@@ -1,0 +1,179 @@
+body {
+  font-family: "Ubuntu", arial, sans-serif;
+  color: #026670;
+  overflow-x: hidden;
+  background-color: #EDEAE5;
+}
+
+header {
+  background-color: #9FEDD7;
+}
+
+nav {
+  width: 75%;
+}
+
+.navbar-toggler-icon {
+  background-color: black;
+}
+
+a {
+  display: block;
+  color: #343A40;
+}
+
+a:hover {
+  color: #FEF9C7;
+}
+
+.offset-header {
+  padding-top: 76px;
+}
+
+section {
+  position: relative;
+}
+
+a.anchor {
+  display: block;
+  position: absolute;
+  top: 5px;
+  visibility: none;
+}
+
+.small-section {
+  min-height: calc(100vh - 76px);
+}
+
+.section-white {
+  background-color: #FFFFFF;
+}
+
+.list-style-image {
+  list-style-image: url("../images/icon-black-nobg-resize.png");
+}
+
+.definite-section {
+  background-color: #026670;
+  color: #FEF9C7;
+}
+
+.container {
+  padding-right: 0;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+h1, h2, h3 {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.card {
+  background-color: #FEF9C7;
+  max-width: 500px;
+}
+
+.image-card {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+}
+
+.parallax {
+  min-height: calc(100vh - 76px);
+  max-width: 100vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FEF9C7;
+  opacity: 0.85;
+  text-shadow: 0 0 4px black;
+}
+
+.bg1 {
+  background-image: url("../sample-images/pickavokev.jpg");
+}
+
+.bg2 {
+  background-image: url("../sample-images/jawork.jpg");
+  background-position: 0px 76px;
+}
+
+.bg3 {
+  background-image: url("../sample-images/gmavo.jpg");
+  background-position: 0px 76px;
+}
+
+.bg4 {
+  background-image: url("../sample-images/avocados-874208_960_720.jpg");
+  background-position: 0px 76px;
+}
+
+.bg5 {
+  background-image: url("../sample-images/Jamii Avo1.jpg");
+  background-position: 0px 76px;
+}
+
+.team-portrait {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.partner-logo {
+  display: block;
+  width: 200px;
+  height: auto;
+}
+
+.fa-map-marker-alt,
+.fa-phone,
+.fa-at {
+  font-size: 2.5em;
+}
+
+td {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 767.98px) {
+  .partner-cont {
+    padding: 50px 0;
+  }
+}
+@media (max-width: 991.98px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+}
+@media (max-width: 1199.98px) {
+  h5, h6 {
+    text-align: center;
+  }
+
+  .left-header {
+    text-align: left;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
