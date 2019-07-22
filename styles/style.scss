@@ -1,95 +1,94 @@
 body {
-    font-family: 'Ubuntu', arial, sans-serif;
-    color: #026670;
-    overflow-x: hidden;
-    background-color: #EDEAE5;
-
-  }
+  font-family: "Ubuntu", arial, sans-serif;
+  color: #026670;
+  overflow-x: hidden;
+  background-color: #edeae5;
+}
 
 header {
-    background-color: #9FEDD7;
+  background-color: #9fedd7;
 }
 
 nav {
-    width: 75%;
+  width: 75%;
 }
 
 .navbar-toggler-icon {
-    background-color: black;
+  background-color: black;
 }
 
 a {
-    display: block;
-    color: #343A40;
+  display: block;
+  color: #343a40;
 }
 
 a:hover {
-    color: #FEF9C7;
+  color: #fef9c7;
 }
 
-
-
 .offset-header {
-    padding-top: 76px;
+  padding-top: 76px;
 }
 
 section {
-    position: relative;
+  position: relative;
 }
 
 a.anchor {
-    display: block;
-    position: absolute;
-    top: 5px;
-    visibility: none;
+  display: block;
+  position: absolute;
+  top: 5px;
+  visibility: none;
 }
 
 .small-section {
-    min-height: calc(100vh - 76px);
+  min-height: calc(100vh - 76px);
 }
 
 .section-white {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .list-style-image {
-    list-style-image: url('../images/icon-black-nobg-resize.png');
+  list-style-image: url("../images/icon-black-nobg-resize.png");
 }
 
 .definite-section {
-    background-color: #026670;
-    color: #FEF9C7;
+  background-color: #026670;
+  color: #fef9c7;
 }
 
 .container {
-    padding-right: 0;
+  padding-right: 0;
 }
 
 .row {
-    margin-left: 0;
-    margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 h1 {
-    font-size: 6rem;
-    font-weight: 300;
-    line-height: 1.2;
+  font-size: 6rem;
+  font-weight: 300;
+  line-height: 1.2;
 }
 
-h1, h2, h3 {
-    font-family: 'Nanum Gothic', sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 .card {
-    background-color: #FEF9C7;
-    max-width: 500px;
+  background-color: #fef9c7;
+  max-width: 500px;
 }
 
 .image-card {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: .25rem;
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
 }
 
 .parallax {
@@ -99,90 +98,88 @@ h1, h2, h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #FEF9C7;
+  color: #fef9c7;
   opacity: 0.85;
   text-shadow: 0 0 4px black;
 }
 
 .bg1 {
-    background-image: url("../sample-images/pickavokev.jpg");
+  background-image: url("../images/pickavokev.jpg");
 }
 
 .bg2 {
-    background-image: url("../sample-images/jawork.jpg");
-    background-position: 0px 76px;
+  background-image: url("../images/jawork.jpg");
 }
 
 .bg3 {
-    background-image: url("../sample-images/gmavo.jpg");
-    background-position: 0px 76px;
+  background-image: url("../images/gmavo.jpg");
 }
 
 .bg4 {
-    background-image: url("../sample-images/avocados-874208_960_720.jpg");
-    background-position: 0px 76px;
+  background-image: url("../images/avocados-874208_960_720.jpg");
 }
 
 .bg5 {
-    background-image: url("../sample-images/Jamii\ Avo1.jpg");
-    background-position: 0px 76px;
+  background-image: url("../images/Jamii\ Avo1.jpg");
+}
+
+.bg2,
+.bg3,
+.bg4,
+.bg5 {
+  background-position: 0px 76px;
 }
 
 .team-portrait {
-    display: block;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .partner-logo {
-    display: block;
-    width: 200px;
-    height: auto;
+  display: block;
+  width: 200px;
+  height: auto;
 }
 
 .fa-map-marker-alt,
 .fa-phone,
 .fa-at {
-    font-size: 2.5em;
+  font-size: 2.5em;
 }
 
 td {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {}
-
-// Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
-    .partner-cont {
-        padding: 50px 0;
-    }
+  .partner-cont {
+    padding: 50px 0;
+  }
 }
 
-// Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-    h1 {
-        font-size: 3.5rem;
-    }
+  h1 {
+    font-size: 3.5rem;
+  }
 
-    nav {
-        width: 100%;
-    }
+  nav {
+    width: 100%;
+  }
 
-    .card {
-        max-width: 100%;
-    }
+  .card {
+    max-width: 100%;
+  }
 }
 
-// Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
-    h5, h6 {
-        text-align: center;
-    }
+  h5,
+  h6 {
+    text-align: center;
+  }
 
-    .left-header {
-        text-align: left;
-    }
+  .left-header {
+    text-align: left;
+  }
 }

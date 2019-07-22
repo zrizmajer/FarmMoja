@@ -2,11 +2,11 @@ body {
   font-family: "Ubuntu", arial, sans-serif;
   color: #026670;
   overflow-x: hidden;
-  background-color: #EDEAE5;
+  background-color: #edeae5;
 }
 
 header {
-  background-color: #9FEDD7;
+  background-color: #9fedd7;
 }
 
 nav {
@@ -19,11 +19,11 @@ nav {
 
 a {
   display: block;
-  color: #343A40;
+  color: #343a40;
 }
 
 a:hover {
-  color: #FEF9C7;
+  color: #fef9c7;
 }
 
 .offset-header {
@@ -46,7 +46,7 @@ a.anchor {
 }
 
 .section-white {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .list-style-image {
@@ -55,7 +55,7 @@ a.anchor {
 
 .definite-section {
   background-color: #026670;
-  color: #FEF9C7;
+  color: #fef9c7;
 }
 
 .container {
@@ -73,12 +73,14 @@ h1 {
   line-height: 1.2;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Nanum Gothic", sans-serif;
 }
 
 .card {
-  background-color: #FEF9C7;
+  background-color: #fef9c7;
   max-width: 500px;
 }
 
@@ -96,32 +98,35 @@ h1, h2, h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #FEF9C7;
+  color: #fef9c7;
   opacity: 0.85;
   text-shadow: 0 0 4px black;
 }
 
 .bg1 {
-  background-image: url("../sample-images/pickavokev.jpg");
+  background-image: url("../images/pickavokev.jpg");
 }
 
 .bg2 {
-  background-image: url("../sample-images/jawork.jpg");
-  background-position: 0px 76px;
+  background-image: url("../images/jawork.jpg");
 }
 
 .bg3 {
-  background-image: url("../sample-images/gmavo.jpg");
-  background-position: 0px 76px;
+  background-image: url("../images/gmavo.jpg");
 }
 
 .bg4 {
-  background-image: url("../sample-images/avocados-874208_960_720.jpg");
-  background-position: 0px 76px;
+  background-image: url("../images/avocados-874208_960_720.jpg");
 }
 
 .bg5 {
-  background-image: url("../sample-images/Jamii Avo1.jpg");
+  background-image: url("../images/Jamii Avo1.jpg");
+}
+
+.bg2,
+.bg3,
+.bg4,
+.bg5 {
   background-position: 0px 76px;
 }
 
@@ -167,7 +172,8 @@ td {
   }
 }
 @media (max-width: 1199.98px) {
-  h5, h6 {
+  h5,
+h6 {
     text-align: center;
   }
 
